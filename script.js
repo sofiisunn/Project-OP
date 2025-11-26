@@ -18,6 +18,7 @@ const list = document.getElementById("test_list");
 
 tests.forEach(test => {
     const div = document.createElement("div");
+    div.classList.add("card");
 
     const title = document.createElement("h2");
     title.textContent = test.title;
