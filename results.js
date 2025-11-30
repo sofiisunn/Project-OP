@@ -15,6 +15,7 @@ if (results.length === 0) {
 
 for (let i = 0; i < results.length; i++) {
     const div = document.createElement("div");
+    div.className = "result-item";
     div.textContent = "Тест № " + results[i].testId + " — Балів: " + results[i].score;
     box.appendChild(div);
 }

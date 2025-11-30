@@ -4,6 +4,9 @@ body {
     color: #333;
     margin: 0;
     padding: 20px;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .card {
@@ -11,11 +14,52 @@ body {
     padding: 15px;
     border-radius: 10px;
     margin: 10px 0;
+    border: 3px solid #f2b2c1;
+    text-align: center;
+}
+
+#b {
+    text-align: center; 
+    margin: 20px 0;   
 }
 
 button {
     background-color: #ffb6c1;
     color: #333;
+    margin: 5px; 
     border-radius: 5px;
     padding: 10px 20px;
+    border: none;
+}
+
+button:hover {
+    background-color: #ff9eac;
+}
+
+#submit {
+    margin-top: 20px; 
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 10px;
+    color: #444;
+}
+
+.questions {
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.result-item {
+    background: #fff;
+    padding: 12px;
+    border-radius: 8px;
+    border: 3px solid #f2b2c1;
+    margin-bottom: 10px;
 }
